@@ -15,12 +15,12 @@ Most Servers are created as virtual machines or LXC containers on Proxmox Enviro
 | 20016 | srv-prod-4 | prx-prod-1 | #kubernetes | Kubernetes Production 1 Control-Plane Master 2, Ubuntu LTS |
 | 20017 | srv-prod-5 | prx-prod-1 | #kubernetes | Kubernetes Production 1 Worker Node 1, Ubuntu LTS |
 | 20018 | srv-prod-6 | prx-prod-1 | #kubernetes | Kubernetes Production 1 Worker Node 2, Ubuntu LTS |
-| 23001 | srv-demo-1 | prx-prod-1 | #docker |  |
+| 23001 | srv-demo-1 | prx-prod-1 | #docker | Server Demo 1, Application Testing Server, Ubuntu LTS |
 | 23002 | fw-demo-1 | prx-prod-1 |  |  |
 | 23003 | fw-demo-2 | prx-prod-1 |  |  |
-| 23004 | srv-demo-2 | prx-prod-1 | #kubernetes  |  |
-| 23005 | srv-demo-3 | prx-prod-1 | #kubernetes  |  |
-| 23006 | srv-demo-4 | prx-prod-1 | #kubernetes  |  |
+| 23004 | srv-demo-2 | prx-prod-1 | #kubernetes  | Kubernetes Demo 1 Control-Plane Master 1, Ubuntu LTS |
+| 23005 | srv-demo-3 | prx-prod-1 | #kubernetes  | Kubernetes Demo 1 Worker Node 1, Ubuntu LTS |
+| 23006 | srv-demo-4 | prx-prod-1 | #kubernetes  | Kubernetes Demo 2 Single Node, Ubuntu LTS |
 | 23007 | srv-demo-5 | prx-prod-1 |   | reimage with debian |
 | 23008 | srv-demo-6 | prx-prod-1 |  | reimage with fedora |
 | 23009 | fw-demo-3 | prx-prod-1 |  | ?? |
