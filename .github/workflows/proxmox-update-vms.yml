@@ -7,19 +7,19 @@ on:
       - test
       - dev
     paths:
-      - 'proxmox/prx-prod-2/terraform/*.tf'
+      - 'proxmox/terraform/*.tf'
   pull_request:
     branches:
       - main
       - test
       - dev
     paths:
-      - 'proxmox/prx-prod-2/terraform/*.tf'
+      - 'proxmox/terraform/*.tf'
   workflow_dispatch:
   
 defaults:
   run:
-    working-directory: proxmox/prx-prod-2/terraform
+    working-directory: proxmox/terraform
 
 env:
   TF_VAR_PRX_PROD_2_URL: ${{ secrets.PRX_PROD_2_URL }}
